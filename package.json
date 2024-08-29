@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "blitz dev",
-    "build": "npm install --legacy-peer-deps && blitz build",
+    "build": "npm install --force && blitz build",
     "start": "blitz start",
     "postinstall": "prisma generate",
     "studio": "blitz prisma studio",
